@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #4c4747de;
+}
+/*main css starts here*/
+
+.container3 {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: -1px 0px 10px #777676a6;
+    border-radius: 10px;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.article {
+    width: 45%;
+    float: left;
+    padding: 40px 0px;
+}
+.image {
+    width: 50%;
+    float: right;
+}
+
+.image2 img {
+    width: 90%;
+}
+.image img {
+    width: 100%;
+}
+
+.article h1 .highlight_name{
+	color: orange;
+
+}
+.article p {
+    color: #666;
+    margin-bottom: 20px;
+}
+.article h3 {
+	color: #222;
+    margin-bottom: 20px;
+}
+a.hire_me {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+.dream {
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+}
+.experiance{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+section.about,
+section.experiance
+ {
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+section.dream {
+    overflow: hidden;
+    margin-bottom: 80px;
+    padding: 40px 0px;
+    background-color: #dad7d740;
+}
+.box {
+    width: 47%;
+    padding: 40px 15px;
+    box-shadow: 5px 7px 40px grey;
+    border-left: 7px solid #fb7b63;
+    margin: 40px 0px;
+    float: left;
+    height: 400px;
+}
+.box2 {
+
+float: right;
+width: 47%;
+padding: 40px 15px;
+box-shadow: 5px 7px 40px grey;
+border-left: 7px solid cyan;
+margin-top: 40px;
+margin-bottom: 40px;
+margin-right: 30px;
+height: 400px;
+}
+.article2{
+
+float: right; 
+width: 45%;
+padding: 40px 0px;
+
+}
+.article2 h3{
+	color: #222;
+	margin-bottom: 20px;
+}
+
+.article2 p{
+	color: #666;
+    margin-bottom: 25px;
+}
+.image2 {
+    width: 35%;
+    float: left;
+    text-align: center;
+    background-color: #333;
+    height: 348px;
+    border-radius: 6%;
+}
+
+.box2 h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.box2 h3 {
+    color: orange;
+    margin-bottom: 20px;
+}
+.box2 p {
+    color: #555;
+}
+
+.box h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.box h3 {
+    color: orange;
+    margin-bottom: 20px;
+}
+.box p {
+    color: #555;
+}
+.title h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+.copyright-content h5 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #a29999;
+}
+
+section.blog {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.blog .titleoff p {
+    color: #666;
+}.power_max {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.blogg {
+    padding-top: 40px;
+    padding-bottom: 40px!important;
+    overflow: hidden;
+}section.power {
+    margin-bottom: 50px;
+}section.power {
+    margin-bottom: 50px;
+}
+
+.blogg h3 {
+    font-size: 30px;
+    color: #222;
+    font-weight: 700;
+}
+
+.blogg p {
+    color: #666;
+    font-weight: 500;
+}
+.footer_text{
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+.footer_text p{
+    color: #666;
+    margin-bottom: 20px;
+
+}
+.footer_text h1 .highlight_name{
+    color: orange;
+
+
+}
+.footer_text h1{
+    margin-top: 30px;
+}
+
+
+.blog_box {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 21px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 6px #777676a6;
+    padding-bottom: 30px;
+    overflow: hidden;
+    display: block;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.blog_box img {
+    width: 90%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.blog_box h2 {
+    text-align: left;
+    padding-left: 22px;
+    margin-bottom: 12px;
+}
+
+.blog_box p {
+    text-align: left;
+    padding-left: 22px;
+    color: #666;
+    width: 95%;
+}
+
+section.blogging {
+    margin-bottom: 100px;
+}
